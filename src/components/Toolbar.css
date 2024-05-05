@@ -1,0 +1,37 @@
+.toolbar-list {
+  display: flex;
+  margin: 1rem auto;
+  justify-content: space-around;
+  width: 45%;
+  list-style: none;
+  padding-left: 0;
+}
+
+.toolbar-item {
+  min-width: 40px;
+  margin-right: 0.5rem;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid darkgray;
+}
+
+.toolbar-item:last-child {
+  margin-right: 0;
+}
+
+.toolbar-item__selected {
+  background-color: darkgray;
+  color: white;
+}
+
+.toolbar-item:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.toolbar-item:focus {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
